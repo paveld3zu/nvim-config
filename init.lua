@@ -1,3 +1,7 @@
+require("core.configs")
+require("core.mappings")
+require("core.lazy")
+
 -- Настройка курсора для нормального режима (блок) и режима вставки (вертикальная линия)
 -- vim.opt.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50"
 
